@@ -1,0 +1,8 @@
+{
+    "editor.codeActionsOnSave": {
+
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true
+    }
+}
