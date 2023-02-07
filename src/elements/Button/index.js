@@ -41,7 +41,7 @@ export default function Button(props) {
         className ={className.join(" ")} 
         style={props.style} 
         target={props.target === '_blank' ? '_blank' : undefined} 
-        rel={props.target === '_blank' ? 'noopener' : undefined}>
+        rel={props.target === '_blank' ? 'noreferrer' : undefined}>
           {props.children}
           </a>
       )
@@ -80,5 +80,4 @@ Button.propTypes    = {
   isLarge : propTypes.bool,
   isBlock : propTypes.bool,
   hasShadow : propTypes.bool,
-  isSmall : propTypes.bool,
  }
