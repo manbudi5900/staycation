@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom'
 import 'assets/scss/style.scss';
 
 import LandingPage from 'pages/LandingPage';
+import Example from 'pages/Example';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Router>
           <Routes>
           <Route path="/" element={<LandingPage />}></Route>
+          <Route path="/example" element={<Example />}></Route>
           </Routes>
       </Router>
     </div>;
