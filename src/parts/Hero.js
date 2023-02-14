@@ -6,6 +6,8 @@ import IconTraveler from './../assets/images/icons/ic_traveler.svg'
 import IconTreasure from './../assets/images/icons/ic_treasures.svg'
 import Button from 'elements/Button'
 import formatNumber from 'utils/formatNumber'
+import Fade from 'react-reveal/Fade';
+
 
 export default function Hero(props) {
     function showMostPicked()
@@ -18,6 +20,7 @@ export default function Hero(props) {
     } 
     
   return (
+    <Fade bottom>
     <section className="container pt-4">
         <div className="row align-items-center">
             <div className="col-auto pr-5" style={{width: 530}}>
@@ -33,7 +36,7 @@ export default function Hero(props) {
                     Show Me Now
                 </Button>
                 <div className="row" style={{marginTop:80}}>
-                    <div className="col-auto" style={{ marginRight:35 }}>
+                    <div className="col-auto" style={{ marginRight:20 }}>
                         <img width="36" height="36" src={IconTraveler} alt={`${props.data.travelers} Travelers`} />
                         <h6 className="mt-3">
                             {formatNumber(props.data.travelers)} <span className="text-gray-500 font-weight-light">
@@ -41,7 +44,7 @@ export default function Hero(props) {
                             </span>
                         </h6>
                     </div>
-                    <div className="col-auto" style={{ marginRight:35 }}>
+                    <div className="col-auto" style={{ marginRight:20 }}>
                         <img width="36" height="36" src={IconTreasure} alt={`${props.data.treasures} Treasures`} />
                         <h6 className="mt-3">
                             {formatNumber(props.data.treasures)} <span className="text-gray-500 font-weight-light">
@@ -49,7 +52,7 @@ export default function Hero(props) {
                             </span>
                         </h6>
                     </div>
-                    <div className="col-auto" style={{ marginRight:35 }}>
+                    <div className="col-auto" style={{ marginRight:20 }}>
                         <img width="36" height="36" src={IconCities} alt={`${props.data.cities} Cities`} />
                         <h6 className="mt-3">
                             {formatNumber(props.data.cities)} <span className="text-gray-500 font-weight-light">
@@ -72,5 +75,6 @@ export default function Hero(props) {
         </div>
 
     </section>
+    </Fade>
   )
 }
