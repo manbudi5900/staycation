@@ -5,15 +5,15 @@
     "imageUrls": [
       {
         "_id": "asd1293uasdads1",
-        "url": "/images/detail-1.jpg"
+        "url": "/images/img-featured-1.jpg"
       },
       {
         "_id": "asd1293uasdads1",
-        "url": "/images/detail-2.jpg"
+        "url": "/images/img-featured-2.jpg"
       },
       {
         "_id": "asd1293uasdads1",
-        "url": "/images/detail-3.jpg"
+        "url": "/images/img-featured-3.jpg"
       }
     ],
     "country": "Indonesia",
@@ -28,25 +28,25 @@
         "_id": "asd1293uasdads1",
         "qty": "3",
         "name": "bedroom",
-        "imageUrl": "/images/icons/ic_bed.svg"
+        "imageUrl": "/images/icons/ic_bedroom.svg"
       },
       {
         "_id": "asd1293uasdads1",
         "qty": "1",
         "name": "living room",
-        "imageUrl": "/images/icons/ic_lamp.svg"
+        "imageUrl": "/images/icons/ic_livingroom.svg"
       },
       {
         "_id": "asd1293uasdads1",
         "qty": "2",
         "name": "bath room",
-        "imageUrl": "/images/icons/ic_wastafel.svg"
+        "imageUrl": "/images/icons/ic_bathroom.svg"
       },
       {
         "_id": "asd1293uasdads1",
         "qty": "1",
         "name": "dining room",
-        "imageUrl": "/images/icons/ic_table.svg"
+        "imageUrl": "/images/icons/ic_diningroom.svg"
       },
       {
         "_id": "asd1293uasdads1",
@@ -64,7 +64,7 @@
         "_id": "asd1293uasdads1",
         "qty": "2",
         "name": "refrigerator",
-        "imageUrl": "/images/icons/ic_refrigator.svg"
+        "imageUrl": "/images/icons/ic_refrigerators.svg"
       },
       {
         "_id": "asd1293uasdads1",
@@ -105,36 +105,36 @@
         "name": "House with beauty backyard",
         "items": [
           {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads16",
             "name": "PSW Antasari",
-            "imageUrl": "/images/image-category-1.jpg",
+            "imageUrl": "/images/category/image-category-5.jpg",
             "country": "South Korea",
             "city": "Seoul Flore",
             "isPopular": false
           },
           {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads17",
             "name": "Kuretakeso",
-            "imageUrl": "/images/image-category-2.jpg",
+            "imageUrl": "/images/category/image-category-6.jpg",
             "country": "South Korea",
             "city": "Seoul Flore",
             "isPopular": false
           },
           {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads18",
             "name": "Arya Duta",
-            "imageUrl": "/images/image-category-3.jpg",
+            "imageUrl": "/images/category/image-category-7.jpg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": false
+          },
+          {
+            "_id": "asd1293uasdads19",
+            "name": "Grand Dhika",
+            "imageUrl": "/images/category/image-category-8.jpg",
             "country": "South Korea",
             "city": "Seoul Flore",
             "isPopular": true
-          },
-          {
-            "_id": "asd1293uasdads1",
-            "name": "Grand Dhika",
-            "imageUrl": "/images/image-category-4.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": false
           }
         ]
       }

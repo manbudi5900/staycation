@@ -5,11 +5,15 @@ import "./index.scss";
 
 export default function Number(props) {
     const {value, placeholder, name, min, max, prefix, suffix, isSuffixPlural} = props;
-    const [InputValue, setInputValue] = useState(`${prefix}${value}${suffix}`);
     const onChange = e => {
       let value = String(e.target.value);
+      if(prefix) value= value.replace(prefix)
+      if(suffix) value = value.replace(suffix)
 
-      if (value && +value <= max && +value >= min) {
+      const patternNumeric = new RegExp("[0-9]*");
+      const isNumeric = patternNumeric.test(value);
+
+      if (+value <= max && +value >= min) {
         props.onChange({
           target: {
             name: name,

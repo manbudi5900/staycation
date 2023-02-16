@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom'
 import 'assets/scss/style.scss';
 
 import LandingPage from 'pages/LandingPage';
+import DetailPage from 'pages/DetailPage';
+
 import Example from 'pages/Example';
 
 
@@ -12,6 +14,7 @@ function App() {
       <Router>
           <Routes>
           <Route path="/" element={<LandingPage />}></Route>
+          <Route path="/properties/:id" element={<DetailPage />}></Route>
           <Route path="/example" element={<Example />}></Route>
           </Routes>
       </Router>
